@@ -35,8 +35,8 @@ jobs:
     - build
     runs-on: ubuntu-latest
     environment:
-      name: pypi
-      url: https://pypi.org/p/<package-name>  # Replace <package-name> with your PyPI project name
+      name: release
+      url: https://pypi.org/p/upcdb-requests  # Replace <package-name> with your PyPI project name
     permissions:
       id-token: write  # IMPORTANT: mandatory for trusted publishing
 
@@ -99,8 +99,8 @@ jobs:
     runs-on: ubuntu-latest
 
     environment:
-      name: testpypi
-      url: https://test.pypi.org/p/<package-name>
+      name: test
+      url: https://test.pypi.org/p/upcdb-requests
 
     permissions:
       id-token: write  # IMPORTANT: mandatory for trusted publishing
