@@ -1,3 +1,5 @@
+This library is forked from https://github.com/mlagace/upcdb, but updated to the new api definition. It also uses requests instead of urllib2
+
 upcdb
 =====
 
